@@ -21,9 +21,9 @@ def equalStacks(h1, h2, h3):
         x3=0
         if maxa==s1:
             x1=h1.pop(0)
-        elif maxa==s2:
+        if maxa==s2:
             x2=h2.pop(0)
-        else:
+        if maxa==s3:
             x3=h3.pop(0)
         s1-=x1
         s2-=x2
